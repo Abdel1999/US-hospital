@@ -1,0 +1,46 @@
+selecting model features :
+
+with :
+-features = df[['X' ,'Y' ,'BEDS' ,'STATE' ,'TYPE' ,'TRAUMA' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'OWNER' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7062367115520907
+
+with :
+-features = df[['X' ,'Y' ,'STATE' ,'TYPE' ,'TRAUMA' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'OWNER' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7200392927308448
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'TRAUMA' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'OWNER' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7242960052390308
+
+with :
+-features = df[['X' ,'Y' ,'TRAUMA' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'OWNER' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.6516044531761624
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'OWNER' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.6673215455140799
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'TRAUMA' ,'COUNTRY' ,'CITY' ,'COUNTY' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7118533071381794
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'TRAUMA' ,'CITY' ,'COUNTY' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7210216110019646
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'TRAUMA' ,'CITY' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7177472167648985
+
+with :
+-features = df[['X' ,'Y' ,'TYPE' ,'TRAUMA' ,'COUNTY' ,'HELIPAD']]
+target = df['STATUS']
+-score = 0.7180746561886051
